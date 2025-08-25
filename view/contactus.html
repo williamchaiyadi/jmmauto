@@ -1,0 +1,85 @@
+<div ng-controller="ContactUsController" id="view">
+
+    <section class="identity">
+        <section class="supportus">
+            <div class="supportus-container">
+                <div class="supportus-form">
+                    <h1>CONTACT</h1><br>
+                    <form 
+                        action="mailto:jmmauto@gmail.com" 
+                        method="POST" 
+                        enctype="text/plain">
+                        
+                        <input 
+                            type="text" 
+                            name="Full Name" 
+                            placeholder="Full Name" 
+                            required>
+                        
+                        <input 
+                            type="email" 
+                            name="Email" 
+                            placeholder="Email" 
+                            required
+                        >
+                        
+                        <input 
+                            type="tel" 
+                            name="Phone Number" 
+                            placeholder="Phone Number" 
+                            required
+                        >
+                        
+                        <textarea 
+                            name="Message" 
+                            placeholder="Message" 
+                            rows="5" 
+                            required>
+                        </textarea>
+                        
+                        <button 
+                            type="submit" 
+                            class="supportus-btn">
+                            SUBMIT
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <div class="contactus-container reverse-on-mobile">
+            <div class="contactus-map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.937434790654!2d106.861762855491!3d-6.139107710593018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f54f4f081b7f%3A0x19f15f59f86a5685!2sJMM%20AUTO!5e0!3m2!1sid!2sid!4v1754661896686!5m2!1sid!2sid" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <div class="contactus">
+                <div class="contactus-info">
+                    <a href="https://api.whatsapp.com/send?phone=+62 812-1262-8866&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="contactus-item">
+                        <i class='bx bxs-phone'></i>
+                        <span>+62 812 4464 2810</span>
+                    </a>
+
+                    <a href="https://share.google/QpMbTfVJ3RSfGJgZ6" class="contactus-item">
+                        <i class='bx bxs-location-plus'></i>
+                        <span>Jl. Danau Sunter Utara No.C1/15-16, Sunter Agung, Tj. Priok, Jakarta Utara 14350</span>
+                    </a>
+
+                    <a href="mailto:jmmauto@gmail.com" class="contactus-item">
+                        <i class='bx bxs-envelope'></i>
+                        <span>jmmauto@gmail.com</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</div>

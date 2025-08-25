@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+
+        "title": "Car Seat Cover",
+
+        "image": "assets/catalog/car-seat-cover-1.png",
+
+        "image2": "assets/catalog/car-seat-cover-2.png",
+
+        "description": "Upgrade your driving experience with our premium Car Seat Cover, designed for style, comfort, and protection. Crafted from high-quality materials, it not only enhances the look of your car’s interior but also provides a smooth, breathable surface for a more enjoyable ride. Whether you’re commuting daily or embarking on long road trips, our seat cover delivers lasting comfort while shielding your seats from wear, stains, and spills.",
+
+        "description2": "With a sleek, modern design and a perfect fit, this car seat cover effortlessly transforms your vehicle’s interior. Easy to install and clean, it’s the perfect combination of practicality and elegance. Give your car the upgrade it deserves because every drive should feel as good as it looks.",
+
+        "features": [
+            "High quality material",
+            "Custom fit",
+            "Durable"
+        ]
+    },
+    {
+        "id": 2,
+
+        "title": "Car Base Carpet",
+
+        "image": "assets/catalog/car-base-carpet-1.png",
+
+        "image2": "assets/catalog/car-base-carpet-2.png",
+
+        "description": "Enhance your vehicle’s interior with our premium Car Base Carpet, designed to deliver superior protection and a refined look. Made from durable, high-quality materials, it shields your car’s floor from dirt, dust, and spills while providing a soft, comfortable surface underfoot. Perfect for daily commutes or long journeys, it helps keep your car clean and stylish with minimal effort.",
+
+        "description2": "With a tailored fit and modern design, this car base carpet blends seamlessly into your vehicle’s interior. Easy to install, remove, and clean, it offers the perfect balance of practicality and elegance. Protect your car’s floor and enjoy a cleaner, more comfortable ride every time you get behind the wheel.",
+        
+        "features": [
+            "Durable high-quality material",
+            "Perfect fit for your vehicle",
+            "Easy to clean"
+        ]
+    }, 
+    {
+        "id": 3,
+
+        "title": "Car Body Cover",
+
+        "image": "assets/catalog/car-body-cover-1.png",
+
+        "image2": "assets/catalog/car-body-cover-2.png",
+
+        "description": "Protect your vehicle in every season with our premium Car Body Cover, engineered for maximum durability and all-weather defense. Made from high-quality, waterproof, and UV-resistant material, it shields your car from rain, dust, sun, and scratches. Whether parked indoors or outdoors, it keeps your vehicle looking pristine and well-maintained.",
+
+        "description2": "Featuring a snug, custom fit and lightweight design, this car body cover is easy to put on, remove, and store. Its breathable fabric prevents moisture buildup while ensuring complete coverage and protection. Keep your car safe, clean, and looking its best — wherever you park.",
+        
+        "features": [
+            "All-weather protection",
+            "Waterproof & UV-resistant",
+            "Custom fit design"
+        ]
+    }
+]
+
+

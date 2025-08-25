@@ -1,0 +1,48 @@
+.aboutus { 
+    color: white;
+    text-align: justify;
+    margin-top: 10rem;
+}
+
+.aboutus-company { 
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 60px;
+    gap: 60px;
+}
+
+.aboutus-company-logo { 
+    width: 200px;
+    height: auto;
+}
+
+.aboutus-company-text .aboutus-desc-content { 
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.aboutus-desc { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px; 
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.aboutus-desc-content {
+    flex: 1;
+}
+
+.aboutus-desc-content h2 { 
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.aboutus-desc-content p { 
+    line-height: 1.5;
+}
+
+.aboutus-desc-img { 
+    max-width: 50%;
+    height: auto;
+}

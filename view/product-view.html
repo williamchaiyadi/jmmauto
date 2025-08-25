@@ -1,0 +1,40 @@
+<div ng-controller="ProductViewController" id="view">
+
+    <section class="productv-section" ng-if="product">
+        <div class="productv-img">
+            <img ng-src="{{product.image}}" alt="{{product.title}}">
+        </div>
+
+        <div class="productv-content">
+            <div class="productv-title">
+                <h1>{{product.title}}</h1>
+            </div>
+
+            <div class="productv-caption">
+                <p>
+                    {{product.description}}
+                </p><br>
+            </div>
+        </div>
+    </section>
+
+    <section class="productv-section">
+        <div class="productv-content">
+            <div class="productv-caption">
+                <h2>Features</h2><br>
+                <p>{{product.description}}</p><br>
+                <ul>
+                    <li ng-repeat="f in product.features">{{f}}</li>
+                </ul>
+            </div>
+        </div>
+        <div class="productv-img">
+            <img ng-src="{{product.image2}}" alt="Product image">
+        </div>
+    </section>
+
+    <div ng-if="!product">
+        <p>Product Not Found</p>
+    </div>
+
+</div>

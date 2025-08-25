@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JMM AUTO</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/home.css">
+        <link rel="stylesheet" href="./css/aboutus.css">
+        <link rel="stylesheet" href="./css/contactus.css">
+        <link rel="stylesheet" href="./css/product.css">
+        <link rel="stylesheet" href="./css/product-view.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    </head>
+
+    <body>
+        <header ng-controller="HeaderController">
+            <div class="head-container">
+                <a href="#/" class="head-logo">
+                    <img src="/assets/logo/jmm-logo-white.png" alt="jmm-logo-home">
+                </a>
+
+                <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+                
+                <div class="head-links">
+                    <ul>
+                        <li><a href="#/" ng-class="{active: isActive('/')}">HOME</a></li>
+                        <li><a href="#/aboutus" ng-class="{active: isActive('/aboutus')}">ABOUT US</a></li>
+                        <li><a href="#/blog" ng-class="{active: isActive('/blog')}">PRODUCT</a></li>
+                        <li><a href="#/contactus" ng-class="{active: isActive('/contactus')}">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <br><br>
+
+        <div>
+            <div ng-view=""></div>
+        </div>
+
+        <br><br><br>
+
+        <footer class="footer-container">
+            <a href="#/" class="footer-logo">
+                <img src="/assets/logo/jmm-logo-white.png" alt="footer-logo">
+            </a>
+            
+            <div class="footer-address">
+                <div class="footer-info">
+                    <a href="https://api.whatsapp.com/send?phone=+62 812-1262-8866&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="footer-item">
+                        <i class='bx bxs-phone'></i>
+                        <span>+62 812 4464 2810</span>
+                    </a>
+
+                    <a href="https://share.google/QpMbTfVJ3RSfGJgZ6" class="footer-item">
+                        <i class='bx bxs-location-plus'></i>
+                        <span>Jl. Danau Sunter Utara No.C1/15-16, Sunter Agung, Tj. Priok, Jakarta Utara 14350</span>
+                    </a>
+
+                    <a href="mailto:jmmauto@gmail.com" class="footer-item">
+                        <i class='bx bxs-envelope'></i>
+                        <span>jmmauto@gmail.com</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>Copyright © 2025 JMM AUTO</p>
+                </div>
+                
+                <div class="footer-social">
+                    <span>
+                        <a href="https://www.instagram.com/jmmauto/">
+                            <img src="https://img.icons8.com/?size=100&id=85140&format=png&color=FFFFFF" alt="instagram-icon" class="footer-icon" style="width: 35px;">
+                        </a>
+                    </span>
+
+                    <span>
+                        <a href="https://www.facebook.com/JmmAuto.ID">
+                            <img src="https://img.icons8.com/?size=100&id=85126&format=png&color=FFFFFF" alt="facebook-icon" class="footer-icon" style="width: 35px;">
+                        </a>
+                    </span>
+
+                    <span>
+                        <a href="https://www.tiktok.com/@jmm.auto">
+                            <img src="https://img.icons8.com/?size=100&id=juS4pYkbvSCh&format=png&color=FFFFFF" alt="tiktok-icon" class="footer-icon" style="width: 35px;">
+                        </a>
+                    </span>
+
+                    <span>
+                        <a href="https://x.com/JMMAuto">
+                            <img src="https://img.icons8.com/?size=100&id=I1nm8adCioiA&format=png&color=FFFFFF" alt="twitter-icon" class="footer-icon" style="width: 35px;">
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </footer>
+
+        
+        <a href="https://api.whatsapp.com/send/?phone=%2B6281212628866&text&type=phone_number&app_absent=0" class="float" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
+
+        <div id="imageModal" class="modal" aria-modal="true" role="dialog">
+            <button class="close" aria-label="Close">&times;</button>
+            <img class="modal-content" id="modalImage" alt="">
+        </div>
+
+        <script src="./js/app.js" defer></script>
+    </body>
+</html>

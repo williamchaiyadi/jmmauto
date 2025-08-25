@@ -1,0 +1,141 @@
+.productv-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    margin: 0 auto;
+    gap: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    gap: 100px;
+}
+
+.productv-content {
+    flex: 1;
+}
+
+.productv-title h1 {
+    font-size: 3rem;
+    color: var(--orange); 
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+.productv-caption h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.productv-caption p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--white);
+    text-align: justify;
+}
+
+.productv-img {
+    flex: 1;
+    text-align: center;
+}
+
+.productv-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.productv-caption ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.productv-caption ul li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--white);
+}
+
+.productv-caption ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: var(--orange); 
+}
+
+.reviews-scroll-wrapper {
+    overflow-x: auto;
+    scrollbar-color: var(--orange) var(--black); 
+    scrollbar-width: thin; 
+    cursor: pointer;
+}
+
+.reviews-scroll-wrapper::-webkit-scrollbar {
+    height: 15px; 
+    cursor: pointer;
+}
+
+.reviews-scroll-wrapper::-webkit-scrollbar-track {
+    background: var(--black); 
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.reviews-scroll-wrapper::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, var(--orange), var(--black));
+    border-radius: 4px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+.reviews-scroll-wrapper::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, var(--orange), var(--black));
+    cursor: pointer;
+}
+
+
+@media (max-width: 500px) {
+    .productv-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .productv-content {
+        order: 2;
+    }
+    .productv-img {
+        order: 1;
+    }
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.85); 
+    justify-content: center;
+    align-items: center;
+}
+.modal-content{
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.3);
+}
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10000;
+    text-shadow: 0 0 5px black;
+}

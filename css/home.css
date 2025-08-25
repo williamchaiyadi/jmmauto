@@ -1,0 +1,110 @@
+.banner {  
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.banner-img { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-content { 
+    position: absolute;
+    bottom: 35%;
+    left: 8%;
+    color: var(--white);
+    text-align: left;
+    cursor: default;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.banner-content h1 { 
+    font-size: 6rem;
+}
+
+.banner-content p { 
+    font-size: 3.8rem;
+    text-decoration: underline;
+    text-decoration-color: var(--orange);
+    text-underline-offset: 18px;
+}
+
+
+.home-about { 
+    background-color: var(--trans-2);
+    padding: 5rem;
+    text-align: justify;
+}
+
+.home-about-content { 
+    color: white;
+}
+
+.home-about-content h1 { 
+    font-style: italic;
+    font-size: 2.5rem;
+    margin-bottom: 1.3rem;
+}
+
+.jmm { 
+    color: var(--orange);
+}
+
+
+.reviews {
+    padding: 5rem;
+    background-color: var(--trans-2);
+}
+
+.reviews-title { 
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 3rem;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    text-decoration-color: var(--orange);
+    text-underline-offset: 15px;
+}
+
+.reviews-scroll-wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.reviews-content {
+    display: inline-flex;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.reviews-images {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+}
+
+.reviews-images img {
+    width: 500px;
+    height: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.reviews-images img:hover {
+    transform: scale(1.05);
+}
+
+
+.sponsors-logo { 
+    padding-top: 3rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+

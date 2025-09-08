@@ -102,9 +102,20 @@
 
 
 .sponsors-logo { 
-    padding-top: 3rem;
+    padding: 3rem 0;
     display: flex;
-    gap: 4rem;
+    justify-content: center; 
+    align-items: center; 
+    gap: 3rem; 
+    flex-wrap: nowrap; 
+}
+
+.sponsor-logos {
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
+.sponsor-logos img {
+    display: block;
+}

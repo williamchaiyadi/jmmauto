@@ -10,7 +10,7 @@ myApp.config([
                 controller: 'HomeController',
                 templateUrl: 'view/home.html',
             })
-            .when('/blog', {
+            .when('/product', {
                 controller: 'ProductController',
                 templateUrl: 'view/product.html',
             })
@@ -25,6 +25,10 @@ myApp.config([
             .when('/product-view', {
                 controller: 'ProductViewController',
                 templateUrl: 'view/product-view.html',
+            })
+            .when('/product-cat', {
+                controller: 'ProductCatController',
+                templateUrl: 'view/product-cat.html',
             })
             .otherwise({ redirectTo: '/' });
     }

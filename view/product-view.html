@@ -11,6 +11,7 @@
             </div>
 
             <div class="productv-caption">
+                <h2>{{product.feature}}</h2>
                 <p>
                     {{product.description}}
                 </p><br>
@@ -21,8 +22,7 @@
     <section class="productv-section">
         <div class="productv-content">
             <div class="productv-caption">
-                <h2>Features</h2><br>
-                <p>{{product.description}}</p><br>
+                <p>{{product.description2}}</p><br>
                 <ul>
                     <li ng-repeat="f in product.features">{{f}}</li>
                 </ul>
@@ -31,6 +31,7 @@
         <div class="productv-img">
             <img ng-src="{{product.image2}}" alt="Product image">
         </div>
+        
     </section>
 
     <div ng-if="!product">

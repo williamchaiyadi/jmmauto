@@ -1,61 +1,82 @@
 [
     {
         "id": 1,
-
-        "title": "Car Seat Cover",
-
+        "title": "Car Seat Leather",
         "image": "assets/catalog/car-seat-cover-1.png",
-
         "image2": "assets/catalog/car-seat-cover-2.png",
-
-        "description": "Upgrade your driving experience with our premium Car Seat Cover, designed for style, comfort, and protection. Crafted from high-quality materials, it not only enhances the look of your car’s interior but also provides a smooth, breathable surface for a more enjoyable ride. Whether you’re commuting daily or embarking on long road trips, our seat cover delivers lasting comfort while shielding your seats from wear, stains, and spills.",
-
-        "description2": "With a sleek, modern design and a perfect fit, this car seat cover effortlessly transforms your vehicle’s interior. Easy to install and clean, it’s the perfect combination of practicality and elegance. Give your car the upgrade it deserves because every drive should feel as good as it looks.",
-
+        "feature": "AIRBAG-COMPATIBLE SEAT COVERS",
+        "description": "Newer vehicles come equipped with airbags within the seats, requiring precise, manufacturer-compliant stitching for safety. Our computer-controlled sewing machines ensure certified and reliable airbag deployment, maintaining your vehicle’s safety standards.",
+        "description2": "Leathers we can offer you,",
         "features": [
-            "High quality material",
-            "Custom fit",
-            "Durable"
+            "Synthetic Leather",
+            "Microfiber Leather",
+            "Genuine Leather"
         ]
     },
     {
         "id": 2,
-
-        "title": "Car Base Carpet",
-
+        "title": "Car Leather Floor Mat",
         "image": "assets/catalog/car-base-carpet-1.png",
-
         "image2": "assets/catalog/car-base-carpet-2.png",
-
-        "description": "Enhance your vehicle’s interior with our premium Car Base Carpet, designed to deliver superior protection and a refined look. Made from durable, high-quality materials, it shields your car’s floor from dirt, dust, and spills while providing a soft, comfortable surface underfoot. Perfect for daily commutes or long journeys, it helps keep your car clean and stylish with minimal effort.",
-
-        "description2": "With a tailored fit and modern design, this car base carpet blends seamlessly into your vehicle’s interior. Easy to install, remove, and clean, it offers the perfect balance of practicality and elegance. Protect your car’s floor and enjoy a cleaner, more comfortable ride every time you get behind the wheel.",
+        "description": "One of the most common issues is the toughness in cleaning the car interior maybe due to liquid drops or biscuits crumbs from eating inside the car which can make the cabin unhygienic. By installing Car Leather floor mat, this is a cost-effective solution that can often be completed while you wait. Pre-made carpet kits that we can professionally fit. Hand-made carpets tailored specifically to your vehicle for a perfect fit.",
+        "description2": "What makes our car leather floor mat an excellent choice for you? Our Car leather floor mat is Waterproof, its easy to clean and you don’t have to worries for bad odors smell. The material we provide is a good quality which have a good durability and resistance towards tear / damaged leather."
         
-        "features": [
-            "Durable high-quality material",
-            "Perfect fit for your vehicle",
-            "Easy to clean"
-        ]
-    }, 
+    },
     {
         "id": 3,
-
         "title": "Car Body Cover",
-
         "image": "assets/catalog/car-body-cover-1.png",
-
         "image2": "assets/catalog/car-body-cover-2.png",
-
-        "description": "Protect your vehicle in every season with our premium Car Body Cover, engineered for maximum durability and all-weather defense. Made from high-quality, waterproof, and UV-resistant material, it shields your car from rain, dust, sun, and scratches. Whether parked indoors or outdoors, it keeps your vehicle looking pristine and well-maintained.",
-
-        "description2": "Featuring a snug, custom fit and lightweight design, this car body cover is easy to put on, remove, and store. Its breathable fabric prevents moisture buildup while ensuring complete coverage and protection. Keep your car safe, clean, and looking its best — wherever you park.",
-        
-        "features": [
-            "All-weather protection",
-            "Waterproof & UV-resistant",
-            "Custom fit design"
-        ]
+        "description": "Our car body cover helps in covering your car from dust and wind, also our material is water proof. so you don’t have to worry about your car getting dust / mould in the long run!"
+    },
+    {
+        "id": 4,
+        "title": "Recaro Seat",
+        "image": "assets/catalog/recaro-seat-1.png",
+        "image2": "assets/catalog/recaro-seat-2.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+        {
+        "id": 5,
+        "title": "INSERT TITLE",
+        "image": "assets/catalog/not-found.png",
+        "image2": "assets/catalog/not-found.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+        {
+        "id": 6,
+        "title": "INSERT TITLE",
+        "image": "assets/catalog/not-found.png",
+        "image2": "assets/catalog/not-found.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+    "car-seat-leather": [
+        {"img": "assets/products/car-seat-leather/1.png", "title": "Model 1"},
+        {"img": "assets/products/car-seat-leather/2.png", "title": "Model 2"},
+        {"img": "assets/products/car-seat-leather/3.png", "title": "Model 3"},
+        {"img": "assets/products/car-seat-leather/4.png", "title": "Model 4"},
+        {"img": "assets/products/car-seat-leather/5.png", "title": "Model 5"},
+        {"img": "assets/products/car-seat-leather/6.png", "title": "Model 6"},
+        {"img": "assets/products/car-seat-leather/7.png", "title": "Model 7"},
+        {"img": "assets/products/car-seat-leather/8.png", "title": "Model 8"},
+        {"img": "assets/products/car-seat-leather/9.png", "title": "Model 9"},
+        {"img": "assets/products/car-seat-leather/10.png", "title": "Model 10"},
+        {"img": "assets/products/car-seat-leather/11.png", "title": "Model 11"},
+        {"img": "assets/products/car-seat-leather/12.png", "title": "Model 12"}
+    ],
+    "car-body-cover": [
+        {"img": "assets/products/car-body-cover/1.png", "title": "Model 1"},
+        {"img": "assets/products/car-body-cover/2.png", "title": "Model 2"},
+        {"img": "assets/products/car-body-cover/3.png", "title": "Model 3"},
+        {"img": "assets/products/car-body-cover/4.png", "title": "Model 4"}
+    ],
+    "car-leather-floor-mat": [
+        {"img": "assets/products/car-leather-floor-mat/1.png", "title": "Model 1"}
+    ]
     }
 ]
+
+
 
 

@@ -139,3 +139,15 @@
     z-index: 10000;
     text-shadow: 0 0 5px black;
 }
+
+.productv-models {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+.productv-models img {
+    width: 150px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}

@@ -12,9 +12,7 @@
 
             <div class="productv-caption">
                 <h2>{{product.feature}}</h2>
-                <p>
-                    {{product.description}}
-                </p><br>
+                <p>{{product.description}}</p><br>
             </div>
         </div>
     </section>
@@ -31,11 +29,26 @@
         <div class="productv-img">
             <img ng-src="{{product.image2}}" alt="Product image">
         </div>
-        
     </section>
+
+    <section class="catalog-section" ng-if="product.models && product.models.length > 0">
+        <h1 class="catalog-h1-title">Available Models</h1>
+        <div class="catalog-container">
+            <a ng-repeat="m in product.models track by $index" 
+                ng-click="openModal(m)" 
+                class="catalog-item">
+                <img ng-src="{{m}}" alt="Model {{$index+1}}">
+                <div class="catalog-title">MODEL {{$index+1}}</div>
+            </a>
+        </div>
+    </section>
+
+    <div id="imageModal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
 
     <div ng-if="!product">
         <p>Product Not Found</p>
     </div>
-
 </div>

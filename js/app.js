@@ -134,7 +134,6 @@ myApp.controller("ProductViewController", function($scope, $http, $location, $ti
                 return p.id === id;
             });
 
-            // Jalankan setelah Angular render konten
             $timeout(function () {
                 const modal = document.getElementById('imageModal');
                 const modalImg = document.getElementById('modalImage');

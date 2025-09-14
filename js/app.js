@@ -10,10 +10,6 @@ myApp.config([
                 controller: 'HomeController',
                 templateUrl: 'view/home.html',
             })
-            .when('/product', {
-                controller: 'ProductController',
-                templateUrl: 'view/product.html',
-            })
             .when('/aboutus', {
                 controller: 'AboutUsController',
                 templateUrl: 'view/aboutus.html',

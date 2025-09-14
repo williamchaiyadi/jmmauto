@@ -2,8 +2,8 @@
     {
         "id": 1,
         "title": "Car Seat Leather",
-        "image": "assets/catalog/car-seat-cover-1.png",
-        "image2": "assets/catalog/car-seat-cover-2.png",
+        "image": "assets/catalog/car-seat/car-seat-2.png",
+        "image2": "assets/catalog/car-seat/car-seat-3.png",
         "feature": "AIRBAG-COMPATIBLE SEAT COVERS",
         "description": "Newer vehicles come equipped with airbags within the seats, requiring precise, manufacturer-compliant stitching for safety. Our computer-controlled sewing machines ensure certified and reliable airbag deployment, maintaining your vehicle’s safety standards.",
         "description2": "Leathers we can offer you,",
@@ -13,25 +13,25 @@
         "Genuine Leather"
         ],
         "models": [
-            "assets/products/1.png",
-            "assets/products/2.png",
-            "assets/products/3.png",
-            "assets/products/4.png",
-            "assets/products/5.png",
-            "assets/products/6.png",
-            "assets/products/7.png",
-            "assets/products/8.png",
-            "assets/products/9.png",
-            "assets/products/10.png",
-            "assets/products/11.png",
-            "assets/products/12.png"
+            "assets/products/car-seat-1.png",
+            "assets/products/car-seat-2.png",
+            "assets/products/car-seat-3.png",
+            "assets/products/car-seat-4.png",
+            "assets/products/car-seat-5.png",
+            "assets/products/car-seat-6.png",
+            "assets/products/car-seat-7.png",
+            "assets/products/car-seat-8.png",
+            "assets/products/car-seat-9.png",
+            "assets/products/car-seat-10.png",
+            "assets/products/car-seat-11.png",
+            "assets/products/car-seat-12.png"
         ]
     },
     {
         "id": 2,
         "title": "Car Leather Floor Mat",
-        "image": "assets/catalog/car-base-carpet-1.png",
-        "image2": "assets/catalog/car-base-carpet-2.png",
+        "image": "assets/catalog/leather-mat/leather-mat-2.png",
+        "image2": "assets/catalog/leather-mat/leather-mat-1.png",
         "description": "One of the most common issues is the toughness in cleaning the car interior maybe due to liquid drops or biscuits crumbs from eating inside the car which can make the cabin unhygienic. By installing Car Leather floor mat, this is a cost-effective solution that can often be completed while you wait. Pre-made carpet kits that we can professionally fit. Hand-made carpets tailored specifically to your vehicle for a perfect fit.",
         "description2": "What makes our car leather floor mat an excellent choice for you? Our Car leather floor mat is Waterproof, its easy to clean and you don’t have to worries for bad odors smell. The material we provide is a good quality which have a good durability and resistance towards tear / damaged leather.",
         "models": []
@@ -39,20 +39,20 @@
     {
         "id": 3,
         "title": "Car Body Cover",
-        "image": "assets/catalog/car-body-cover-1.png",
+        "image": "assets/catalog/body-cover/body-cover-2.png",
         "description": "Our car body cover helps in covering your car from dust and wind, also our material is water proof. so you don’t have to worry about your car getting dust / mould in the long run!",
         "models": [
-        "assets/products/12.png",
-        "assets/products/11.png",
-        "assets/products/10.png",
-        "assets/products/9.png"
+        "assets/catalog/body-cover/body-cover-1.png",
+        "assets/catalog/body-cover/body-cover-2.png",
+        "assets/catalog/body-cover/body-cover-3.png",
+        "assets/catalog/body-cover/body-cover-4.png"
         ]
     },
     {
         "id": 4,
         "title": "Recaro Seat",
-        "image": "assets/catalog/recaro-seat-1.png",
-        "image2": "assets/catalog/recaro-seat-2.png",
+        "image": "assets/catalog/recaro-seat/recaro-seat-1.png",
+        "image2": "assets/catalog/recaro-seat/recaro-seat-2.png",
         "feature": "Lorem Ipsum",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",

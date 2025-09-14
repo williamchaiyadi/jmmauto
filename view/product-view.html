@@ -11,13 +11,13 @@
             </div>
 
             <div class="productv-caption">
-                <h2>{{product.feature}}</h2>
+                <h2 ng-if="product.feature">{{product.feature}}</h2>
                 <p>{{product.description}}</p><br>
             </div>
         </div>
     </section>
 
-    <section class="productv-section">
+    <section class="productv-section" ng-if="product.image2">
         <div class="productv-content">
             <div class="productv-caption">
                 <p>{{product.description2}}</p><br>
@@ -32,7 +32,7 @@
     </section>
 
     <section class="catalog-section" ng-if="product.models && product.models.length > 0">
-        <h1 class="catalog-h1-title">Available Models</h1>
+        <h1 class="catalog-h1-title">AVAILABLE MODELS</h1>
         <div class="catalog-container">
             <a ng-repeat="m in product.models track by $index" 
                 ng-click="openModal(m)" 

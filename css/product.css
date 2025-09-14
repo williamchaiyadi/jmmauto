@@ -86,12 +86,17 @@
 }
 
 #modalImage {
-    max-width: 90%;
-    max-height: 90%;
+    width: 90vmin; 
+    height: 90vmin; 
+    max-width: 1920px;
+    max-height: 1920px;
+    aspect-ratio: 1 / 1; 
     object-fit: contain; 
     border-radius: 10px;
+    background-color: #000;
     box-shadow: 0px 0px 30px rgba(0,0,0,0.5);
 }
+
 
 #imageModal .close {
     position: absolute;
@@ -102,6 +107,10 @@
     cursor: pointer;
     z-index: 10000;
     transition: color 0.3s ease;
+    aspect-ratio: 1 / 1; 
+    object-fit: contain; 
+    border-radius: 10px;
+    background-color: #000;
 }
 #imageModal .close:hover {
     color: orange;

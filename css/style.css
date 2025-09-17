@@ -103,3 +103,8 @@ body {
 
 }
 
+@media screen and (min-width: 1280px) and (min-height: 720px) {
+    #page {
+        zoom: 1.25;
+    }
+}

@@ -6,7 +6,7 @@
 
 .aboutus-company { 
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 60px;
     gap: 60px;
 }

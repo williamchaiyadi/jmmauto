@@ -93,25 +93,23 @@
     aspect-ratio: 1 / 1; 
     object-fit: contain; 
     border-radius: 10px;
-    background-color: #000;
+    background-color: var(--black);
     box-shadow: 0px 0px 30px rgba(0,0,0,0.5);
 }
-
 
 #imageModal .close {
     position: absolute;
     top: 20px;
     right: 25px;
-    font-size: 32px;
-    color: white;
+    font-size: 50px;
+    color: var(--white);
     cursor: pointer;
     z-index: 10000;
     transition: color 0.3s ease;
     aspect-ratio: 1 / 1; 
     object-fit: contain; 
-    border-radius: 10px;
-    background-color: #000;
 }
+
 #imageModal .close:hover {
-    color: orange;
+    color: var(--orange);
 }

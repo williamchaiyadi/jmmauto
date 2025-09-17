@@ -19,13 +19,15 @@
 
     <section class="productv-section" ng-if="product.image2">
         <div class="productv-content">
-            <div class="productv-caption">
+            <div class="productv-caption" ng-class="{'with-features': product.features && product.features.length > 0}">
                 <p>{{product.description2}}</p><br>
-                <ul>
+                
+                <ul ng-if="product.features && product.features.length > 0">
                     <li ng-repeat="f in product.features">{{f}}</li>
                 </ul>
             </div>
         </div>
+
         <div class="productv-img">
             <img ng-src="{{product.image2}}" alt="Product image">
         </div>

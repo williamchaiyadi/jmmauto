@@ -75,7 +75,7 @@ body {
     color: var(--white);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     .reverse-on-mobile {
         display: flex;
         flex-direction: column;
@@ -94,7 +94,7 @@ body {
         width: 100% !important;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 1080px) {
     #view > *:not(header):not(footer):not(.banner) {
         margin-left: 15px;
         margin-right: 15px;

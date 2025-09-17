@@ -41,7 +41,7 @@ img {
 }
 
 body { 
-    background-image: url(/assets/background/black-background-2.png);
+    background-image: url(/assets/background/black-background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -101,10 +101,4 @@ body {
     }
     }
 
-}
-
-@media screen and (min-width: 1280px) and (min-height: 720px) {
-    #page {
-        zoom: 1.25;
-    }
 }

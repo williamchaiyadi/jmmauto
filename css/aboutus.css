@@ -46,3 +46,7 @@
     max-width: 50%;
     height: auto;
 }
+
+.aboutus-desc-content-title { 
+    color: var(--orange);
+}

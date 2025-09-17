@@ -39,27 +39,27 @@
     {
         "id": 3,
         "title": "Car Body Cover",
-        "image": "assets/catalog/body-cover/body-cover-2.png",
-        "description": "Our car body cover helps in covering your car from dust and wind, also our material is water proof. so you don’t have to worry about your car getting dust / mould in the long run!",
+        "image": "assets/catalog/body-cover/body-cover-1.png",
+        "description": "Our car body cover helps in covering your car from dust and wind, also our material is water proof. So you don’t have to worry about your car getting dust/mould in the long run!",
         "models": [
-        "assets/catalog/body-cover/body-cover-1.png",
         "assets/catalog/body-cover/body-cover-2.png",
         "assets/catalog/body-cover/body-cover-3.png",
-        "assets/catalog/body-cover/body-cover-4.png"
+        "assets/catalog/body-cover/body-cover-4.png",
+        "assets/catalog/body-cover/body-cover-5.png"
         ]
     },
     {
         "id": 4,
         "title": "Recaro Seat",
-        "image": "assets/catalog/recaro-seat/recaro-seat-1.png",
+        "image": "assets/catalog/recaro-seat/recaro-seat-3.png",
         "image2": "assets/catalog/recaro-seat/recaro-seat-2.png",
         "feature": "Lorem Ipsum",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "Experience unmatched comfort and performance with the Recaro Seat, engineered to deliver a premium driving experience. Designed with advanced ergonomics to support your posture, it not only enhances comfort but also provides superior control every time you take the wheel.",
+        "description2": "Crafted from high-quality materials with a sleek, sporty design, the Recaro Seat is the perfect choice for those who value both style and function. Elevate your journey with a seat trusted by automotive enthusiasts worldwide for its safety, comfort, and confidence-inspiring design.",
         "models": [
-            "assets/catalog/not-found.png",
-            "assets/catalog/not-found.png",
-            "assets/catalog/not-found.png"
+            "assets/catalog/recaro-seat/recaro-seat-1.png",
+            "assets/catalog/recaro-seat/recaro-seat-4.png",
+            "assets/catalog/recaro-seat/recaro-seat-5.png"
         ]
     },
         {

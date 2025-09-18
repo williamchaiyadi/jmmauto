@@ -78,7 +78,7 @@ button:hover {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     padding-top: 10rem;
 }
 
@@ -91,8 +91,11 @@ button:hover {
     flex: 1 1 300px;
     min-width: 250px;
     color: white;
-    padding-top: 6rem;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
 }
+
 
 .contactus a { 
     color: var(--white);
@@ -111,7 +114,7 @@ button:hover {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 .contactus-item i {

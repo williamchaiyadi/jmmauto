@@ -119,3 +119,38 @@
 .sponsor-logos img {
     display: block;
 }
+
+@media screen and (max-width: 768px) {
+    .banner-content h1 {
+        font-size: 3rem !important; 
+        line-height: 1;
+    }
+
+    .banner-content p {
+        font-size: 1.5rem !important; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .catalog-h1-title {
+        text-align: center; 
+        margin: 0 auto 1.5rem; 
+        width: 100%;
+    }
+
+    .catalog-h1-title h1 {
+        font-size: 20px;
+        display: inline-block; 
+        position: relative;
+    }
+
+    .catalog-h1-title h1::after {
+        content: "";
+        display: block;
+        width: 50%; 
+        max-width: 100px;
+        height: 3px;
+        background: var(--orange);
+        margin: 8px auto 0; 
+    }
+}

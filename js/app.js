@@ -169,3 +169,11 @@ myApp.controller("ProductViewController", function($scope, $http, $location, $ti
             console.error('Error loading product:', err);
         });
 });
+
+// tambahkan di script.js
+const menuBtn = document.querySelector('.menu-toggle');
+const navLinks = document.querySelector('header nav ul');
+
+menuBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+});

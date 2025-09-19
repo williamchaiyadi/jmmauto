@@ -139,21 +139,25 @@
         font-size: 1.5rem !important; 
     }
 
-    .catalog-h1-title h1 {
-        text-align: center !important;
-        font-size: 1.8rem !important;
-        position: relative;
-        margin-bottom: 1.5rem;
+    .sponsors-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    gap: 4rem;
     }
 
-    .catalog-h1-title h1::after {
-        content: "";
-        position: absolute;
-        bottom: -6px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 60%;
-        height: 2px;
-        background: #000;
+    .sponsor-logos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sponsor-logos img {
+        display: block;
+        width: 220px; 
+        max-width: 90%;
+        height: auto;
     }
 }

@@ -9,12 +9,13 @@
     cursor: pointer;
 }
 
-.footer-logo img { 
-    width: 10%;
+.footer-logo img {
+    width: 100px; 
     height: auto;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+    display: block;
+    margin: 0 auto;
 }
-
 .footer-address {
     border-top: 1px solid #444;
     padding-top: 25px;
@@ -22,8 +23,9 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 25px;
 }
 
 .footer-info {
@@ -62,8 +64,8 @@
     flex-wrap: wrap; 
     margin-top: 20px;
     color: var(--white);
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .footer-social img {

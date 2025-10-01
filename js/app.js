@@ -170,7 +170,6 @@ myApp.controller("ProductViewController", function($scope, $http, $location, $ti
         });
 });
 
-// tambahkan di script.js
 const menuBtn = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('header nav ul');
 

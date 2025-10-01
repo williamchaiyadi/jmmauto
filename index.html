@@ -38,10 +38,10 @@
                 
                 <div class="head-links">
                     <ul>
-                        <li><a href="#/" ng-class="{active: isActive('/')}">HOME</a></li>
-                        <li><a href="#/aboutus" ng-class="{active: isActive('/aboutus')}">ABOUT US</a></li>
-                        <li><a href="#/product-cat" ng-class="{active: isActive('/product-cat')}">PRODUCT</a></li>
-                        <li><a href="#/contactus" ng-class="{active: isActive('/contactus')}">CONTACT US</a></li>
+                        <li><a href="#/" ng-class="{active: isActive('/')}" data-lang="home">HOME</a></li>
+                        <li><a href="#/aboutus" ng-class="{active: isActive('/aboutus')}" data-lang="about">ABOUT US</a></li>
+                        <li><a href="#/product-cat" ng-class="{active: isActive('/product-cat')}" data-lang="product">PRODUCT</a></li>
+                        <li><a href="#/contactus" ng-class="{active: isActive('/contactus')}" data-lang="contact">CONTACT US</a></li>
                     </ul>
                 </div>
             </div>
@@ -54,6 +54,11 @@
         </div>
 
         <br><br><br>
+
+        <div class="language-switcher">
+            <button onclick="setLanguage('id')">Bahasa Indonesia</button>
+            <button onclick="setLanguage('en')">English</button>
+        </div>
 
         <footer class="footer-container">
             <a href="#/" class="footer-logo">
@@ -81,7 +86,7 @@
 
             <div class="footer-bottom">
                 <div class="footer-copyright">
-                    <p>Copyright © 2025 JMM AUTO</p>
+                    <p data-lang="copyright">Copyright © 2025 JMM AUTO</p>
                 </div>
                 
                 <div class="footer-social">
@@ -123,5 +128,6 @@
         </div>
 
         <script src="./js/app.js" defer></script>
+        <script src="./js/lang.js" defer></script>
     </body>
 </html>

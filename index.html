@@ -29,6 +29,18 @@
 
     <body>
         <header ng-controller="HeaderController">
+            <div class="topbar">
+                <div class="topbar-inner">
+                    <div class="topbar-left"></div>
+                    <div class="topbar-right">
+                        <select id="lang-select" aria-label="Language switcher" class="lang-dropdown">
+                            <option value="en">EN</option>
+                            <option value="id">ID</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
             <div class="head-container">
                 <a href="#/" class="head-logo">
                     <img src="/assets/logo/jmm-logo-white.png" alt="jmm-logo-home">
@@ -54,11 +66,6 @@
         </div>
 
         <br><br><br>
-
-        <div class="language-switcher">
-            <button onclick="setLanguage('id')">Bahasa Indonesia</button>
-            <button onclick="setLanguage('en')">English</button>
-        </div>
 
         <footer class="footer-container">
             <a href="#/" class="footer-logo">

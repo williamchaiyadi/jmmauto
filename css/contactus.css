@@ -1,5 +1,5 @@
 .identity { 
-    color: white;
+    color: var(--white);
     text-align: justify;
 }
 

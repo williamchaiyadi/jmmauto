@@ -95,3 +95,35 @@ header {
     }
 }
 
+.topbar {
+    width: 100%;
+    background: var(--black);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+    position: relative;
+    z-index: 999;
+}
+
+.lang-dropdown {
+    background: var(--black);
+    color: var(--white);
+    border: none;
+    padding: 4px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.lang-dropdown:hover {
+    background: var(--black);
+}
+
+@media (max-width: 768px) {
+    .lang-dropdown {
+        font-size: 12px;
+        padding: 3px 8px;
+    }
+}

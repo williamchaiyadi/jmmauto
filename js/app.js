@@ -176,3 +176,72 @@ const navLinks = document.querySelector('header nav ul');
 menuBtn.addEventListener('click', () => {
     navLinks.classList.toggle('show');
 });
+
+myApp.controller("ProductViewController", function($scope, $http, $location, $timeout) {
+    $scope.currentLang = localStorage.getItem("language") || "en";
+
+    // update Angular saat ganti bahasa
+    $scope.switchLang = function(lang) {
+        $scope.currentLang = lang;
+        localStorage.setItem("language", lang);
+        setLanguage(lang); // panggil fungsi global dari lang.js
+
+        // paksa Angular rerender
+        $scope.$applyAsync();
+    };
+
+    var id = parseInt($location.search().id);
+
+    $http.get('json/product.json')
+        .then(function(response) {
+            var products = response.data;
+            $scope.product = products.find(function(p) {
+                return p.id === id;
+            });
+
+            // modal viewer
+            $timeout(function () {
+                const modal = document.getElementById('imageModal');
+                const modalImg = document.getElementById('modalImage');
+                const closeBtn = modal.querySelector('.close');
+
+                document.querySelectorAll(".catalog-item img").forEach(function(img) {
+                    img.addEventListener("click", function(e) {
+                        e.preventDefault();
+                        modal.style.display = "flex";
+                        modalImg.src = this.src;
+                        document.body.style.overflow = 'hidden';
+                    });
+                });
+
+                closeBtn.addEventListener("click", function () {
+                    modal.style.display = "none";
+                    document.body.style.overflow = '';
+                });
+
+                modal.addEventListener("click", function(e) {
+                    if (e.target === modal) {
+                        modal.style.display = "none";
+                        document.body.style.overflow = '';
+                    }
+                });
+
+                document.addEventListener("keydown", function(e) {
+                    if (e.key === "Escape") {
+                        modal.style.display = "none";
+                        document.body.style.overflow = '';
+                    }
+                });
+            }, 0);
+
+        })
+        .catch(function(err) {
+            console.error('Error loading product:', err);
+        });
+
+    // biar tiap kali bahasa diganti dari luar (misal dropdown global), Angular ikut update
+    window.addEventListener("languageChanged", function() {
+        $scope.currentLang = localStorage.getItem("language") || "en";
+        $scope.$applyAsync();
+    });
+});

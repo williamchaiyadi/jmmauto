@@ -64,7 +64,8 @@
     text-align: center;
     color: var(--white);
     margin-bottom: 3rem;
-    font-size: 1.3rem;
+    font-size: 2rem;
+    font-weight: bold;
     text-decoration: underline;
     text-decoration-color: var(--orange);
     text-underline-offset: 15px;

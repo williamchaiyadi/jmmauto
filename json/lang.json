@@ -4,13 +4,82 @@
         "about": "ABOUT US",
         "product": "PRODUCT",
         "contact": "CONTACT US",
-        "copyright": "Copyright © 2025 JMM AUTO"
+        "copyright": "Copyright © 2025 JMM AUTO",
+
+        "banner-content": "CAR SEAT SPECIALIST",
+        "home-about-content": "We are car seat leather makers originally from Indonesia. Located in Jln. Danau Sunter Utara Block C1 No.15, Jakarta. We specialize in the design, manufacturing, sales and service of car/bus seats with clients covering whole Indonesia. We have an experience in the industry for over 25+ years and have been trusted by many auto workshops across Indonesia.",
+        "catalog-title-main": "POPULAR PRODUCTS",
+        "catalogs-item-seat": "CAR SEAT COVER",
+        "catalogs-item-carpet":"Car Base Carpet",
+        "catalogs-item-cover": "Car Body Cover",
+        "reviews-title": "REVIEWS FROM OUR CUSTOMERS",
+
+        "aboutus-desc-content-title": "WHY US?",
+        "aboutus-company-text": "Originally named as HDR Motor in 1985 focus mainly in Indonesia market as a car seat leather distributors and other car accessories suppliers for Indonesia market. In 2021, JMM Auto is established focusing on retail and overseas market.",
+        "aboutus-desc-content": "As we are expertising in the Car Seat Leather Industry, we are the right partner for you to enhance your business performance especially in the automotive interior industry, as we are always committed to the trust, quality and precision of our products. <br><br>Our mission is to be the best in delivering our products and also provide the solution in the industry.",
+
+        "contactus-title": "CONTACT",
+        "contactus-fullname": "Full Name",
+        "contactus-email": "Email",
+        "contactus-phone": "Phone Number",
+        "contactus-message": "Message",
+        "contactus-submit": "SUBMIT",
+        "contactus-phone-label": "+62 812 4464 2810",
+        "contactus-address": "Jl. Danau Sunter Utara No.C1/15-16, Sunter Agung, Tj. Priok, Jakarta Utara 14350",
+        "contactus-email-label": "jmmauto.id@gmail.com",
+
+        "productcat-title": "OUR PRODUCTS",
+        "productcat-seat": "Car Seat Leather",
+        "productcat-mat": "Car Leather Floor Mat",
+        "productcat-cover": "Car Body Cover",
+        "productcat-recaro": "Recaro Seat",
+        "productcat-soon1": "Coming Soon",
+        "productcat-soon2": "COMING SOON",
+
+        "productview-available": "AVAILABLE MODELS",
+        "productview-model": "MODEL",
+        "productview-notfound": "Product Not Found"
     },
+
     "id": {
         "home": "BERANDA",
         "about": "TENTANG KAMI",
         "product": "PRODUK",
         "contact": "KONTAK KAMI",
-        "copyright": "Hak Cipta © 2025 JMM AUTO"
+        "copyright": "Hak Cipta © 2025 JMM AUTO",
+
+        "banner-content": "SPESIALIS JOK MOBIL",
+        "home-about-content": "Kami adalah pembuat jok mobil berbahan kulit asal Indonesia. Berlokasi di Jl. Danau Sunter Utara Blok C1 No.15, Jakarta. Kami mengkhususkan diri dalam desain, manufaktur, penjualan, dan layanan jok mobil maupun bus dengan klien yang tersebar di seluruh Indonesia. Kami memiliki pengalaman lebih dari 25 tahun di industri ini dan telah dipercaya oleh banyak bengkel mobil di seluruh Indonesia.",
+        "catalog-title-main": "PRODUK POPULER",
+        "catalogs-item-seat": "SARUNG JOK MOBIL",
+        "catalogs-item-carpet":"KARPET DASAR MOBIL",
+        "catalogs-item-cover": "BODY COVER MOBIL",
+        "reviews-title": "ULASAN DARI KONSUMEN KAMI",
+
+        "aboutus-desc-content-title": "KENAPA KAMI?",
+        "aboutus-company-text": "Awalnya bernama HDR Motor pada tahun 1985 yang berfokus pada pasar Indonesia sebagai distributor jok mobil berbahan kulit serta pemasok aksesoris mobil lainnya untuk pasar Indonesia. Pada tahun 2021, JMM Auto didirikan dengan fokus pada ritel dan pasar luar negeri.",
+        "aboutus-desc-content": "Sebagai ahli di industri jok mobil berbahan kulit, kami adalah mitra yang tepat untuk membantu meningkatkan kinerja bisnis Anda, khususnya di industri interior otomotif. Kami selalu berkomitmen pada kepercayaan, kualitas, dan ketelitian produk kami. <br><br>Misi kami adalah menjadi yang terbaik dalam menghadirkan produk serta memberikan solusi di industri ini.",
+        
+        "contactus-title": "KONTAK",
+        "contactus-fullname": "Nama Lengkap",
+        "contactus-email": "Surel",
+        "contactus-phone": "Nomor Telepon",
+        "contactus-message": "Pesan",
+        "contactus-submit": "KIRIM",
+        "contactus-phone-label": "+62 812 4464 2810",
+        "contactus-address": "Jl. Danau Sunter Utara No.C1/15-16, Sunter Agung, Tj. Priok, Jakarta Utara 14350",
+        "contactus-email-label": "jmmauto.id@gmail.com", 
+
+        "productcat-title": "PRODUK KAMI",
+        "productcat-seat": "Jok Mobil Kulit",
+        "productcat-mat": "Karpet Dasar Mobil Kulit",
+        "productcat-cover": "Body Cover Mobil",
+        "productcat-recaro": "Kursi Recaro",
+        "productcat-soon1": "Segera Hadir",
+        "productcat-soon2": "SEGERA HADIR",
+
+        "productview-available": "MODEL YANG TERSEDIA",
+        "productview-model": "MODEL",
+        "productview-notfound": "Produk Tidak Ditemukan"
     }
 }

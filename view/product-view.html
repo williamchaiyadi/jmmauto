@@ -1,56 +1,57 @@
 <div ng-controller="ProductViewController" id="view">
 
-    <section class="productv-section" ng-if="product">
-        <div class="productv-img">
-            <img ng-src="{{product.image}}" alt="{{product.title}}">
-        </div>
-
-        <div class="productv-content">
-            <div class="productv-title">
-                <h1>{{product.title}}</h1>
-            </div>
-
-            <div class="productv-caption">
-                <h2 ng-if="product.feature">{{product.feature}}</h2>
-                <p>{{product.description}}</p><br>
-            </div>
-        </div>
-    </section>
-
-    <section class="productv-section" ng-if="product.image2">
-        <div class="productv-content">
-            <div class="productv-caption" ng-class="{'with-features': product.features && product.features.length > 0}">
-                <p>{{product.description2}}</p><br>
-                
-                <ul ng-if="product.features && product.features.length > 0">
-                    <li ng-repeat="f in product.features">{{f}}</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="productv-img">
-            <img ng-src="{{product.image2}}" alt="Product image">
-        </div>
-    </section>
-
-    <section class="catalog-section" ng-if="product.models && product.models.length > 0">
-        <h1 class="catalog-h1-title">AVAILABLE MODELS</h1>
-        <div class="catalog-container">
-            <a ng-repeat="m in product.models track by $index" 
-                ng-click="openModal(m)" 
-                class="catalog-item">
-                <img ng-src="{{m}}" alt="Model {{$index+1}}">
-                <div class="catalog-title">MODEL {{$index+1}}</div>
-            </a>
-        </div>
-    </section>
-
-    <div id="imageModal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="modalImage">
+  <section class="productv-section" ng-if="product">
+    <div class="productv-img">
+      <img ng-src="{{product.image}}" alt="{{product.title}}">
     </div>
 
-    <div ng-if="!product">
-        <p>Product Not Found</p>
+    <div class="productv-content">
+      <div class="productv-title">
+        <h1>{{product.title[$scope.currentLang] || product.title.en}}</h1>
+      </div>
+
+      <div class="productv-caption">
+        <h2 ng-if="product.feature">{{product.feature[$scope.currentLang] || product.feature.en}}</h2>
+        <p>{{product.description[$scope.currentLang] || product.description.en}}</p><br>
+      </div>
     </div>
+  </section>
+
+  <section class="productv-section" ng-if="product.image2">
+    <div class="productv-content">
+      <div class="productv-caption" ng-class="{'with-features': product.features && product.features.length > 0}">
+        <p>{{product.description2[$scope.currentLang] || product.description2.en}}</p><br>
+
+        <ul ng-if="product.features && product.features.length > 0">
+          <li ng-repeat="f in product.features">{{f[$scope.currentLang] || f.en}}</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="productv-img">
+      <img ng-src="{{product.image2}}" alt="Product image">
+    </div>
+  </section>
+
+<section class="catalog-section" ng-if="product.models && product.models.length > 0">
+  <h1 class="catalog-h1-title">{{"AVAILABLE MODELS" | translate:currentLang}}</h1>
+  <div class="catalog-container">
+    <a ng-repeat="m in product.models track by $index" 
+        ng-click="openModal(m)" 
+        class="catalog-item">
+        <img ng-src="{{m}}" alt="Model {{$index+1}}">
+        <div class="catalog-title">MODEL {{$index+1}}</div>
+    </a>
+  </div>
+</section>
+
+
+  <div id="imageModal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+  </div>
+
+  <div ng-if="!product">
+    <p>{{"PRODUCT_NOT_FOUND" | translate:currentLang}}</p>
+  </div>
 </div>

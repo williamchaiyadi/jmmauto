@@ -63,111 +63,10 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
-myApp.controller("ProductController", function($scope, $timeout) {
-    $timeout(function () {
-        const modal = document.getElementById('imageModal');
-        const modalImg = document.getElementById('modalImage');
-        const closeBtn = modal.querySelector('.close');
-
-        document.querySelectorAll(".catalog-item img").forEach(function(img) {
-            img.addEventListener("click", function(e) {
-                e.preventDefault();
-                modal.style.display = "flex";
-                modalImg.src = this.src;
-                document.body.style.overflow = 'hidden';
-            });
-        });
-
-        closeBtn.addEventListener("click", function () {
-            modal.style.display = "none";
-            document.body.style.overflow = '';
-        });
-
-        modal.addEventListener("click", function(e) {
-            if (e.target === modal) {
-                modal.style.display = "none";
-                document.body.style.overflow = '';
-            }
-        });
-
-        document.addEventListener("keydown", function(e) {
-            if (e.key === "Escape") {
-                modal.style.display = "none";
-                document.body.style.overflow = '';
-            }
-        });
-    }, 0); 
-});
-
-myApp.controller("ProductViewController", function($scope, $http, $location) {
-    var id = parseInt($location.search().id);
-
-    $http.get('json/product.json')
-        .then(function(response) {
-            var products = response.data;
-            $scope.product = products.find(function(p) {
-                return p.id === id;
-            });
-        })
-        .catch(function(err) {
-            console.error('Error loading product:', err);
-        });
-});
-
 myApp.run(function($rootScope) {
     $rootScope.$on('$routeChangeSuccess', function() {
         window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
     });
-});
-
-myApp.controller("ProductViewController", function($scope, $http, $location, $timeout) {
-    var id = parseInt($location.search().id);
-
-    $http.get('json/product.json')
-        .then(function(response) {
-            var products = response.data;
-            $scope.product = products.find(function(p) {
-                return p.id === id;
-            });
-
-            $timeout(function () {
-                const modal = document.getElementById('imageModal');
-                const modalImg = document.getElementById('modalImage');
-                const closeBtn = modal.querySelector('.close');
-
-                document.querySelectorAll(".catalog-item img").forEach(function(img) {
-                    img.addEventListener("click", function(e) {
-                        e.preventDefault();
-                        modal.style.display = "flex";
-                        modalImg.src = this.src;
-                        document.body.style.overflow = 'hidden';
-                    });
-                });
-
-                closeBtn.addEventListener("click", function () {
-                    modal.style.display = "none";
-                    document.body.style.overflow = '';
-                });
-
-                modal.addEventListener("click", function(e) {
-                    if (e.target === modal) {
-                        modal.style.display = "none";
-                        document.body.style.overflow = '';
-                    }
-                });
-
-                document.addEventListener("keydown", function(e) {
-                    if (e.key === "Escape") {
-                        modal.style.display = "none";
-                        document.body.style.overflow = '';
-                    }
-                });
-            }, 0);
-
-        })
-        .catch(function(err) {
-            console.error('Error loading product:', err);
-        });
 });
 
 const menuBtn = document.querySelector('.menu-toggle');
@@ -180,68 +79,52 @@ menuBtn.addEventListener('click', () => {
 myApp.controller("ProductViewController", function($scope, $http, $location, $timeout) {
     $scope.currentLang = localStorage.getItem("language") || "en";
 
-    // update Angular saat ganti bahasa
-    $scope.switchLang = function(lang) {
-        $scope.currentLang = lang;
-        localStorage.setItem("language", lang);
-        setLanguage(lang); // panggil fungsi global dari lang.js
+    $scope.modalVisible = false;
+    $scope.modalImage = "";
 
-        // paksa Angular rerender
-        $scope.$applyAsync();
+    $scope.openModal = function(src) {
+        $scope.modalImage = src;
+        $scope.modalVisible = true;
+        document.body.style.overflow = 'hidden';
+    };
+    $scope.closeModal = function() {
+        $scope.modalVisible = false;
+        $scope.modalImage = "";
+        document.body.style.overflow = '';
     };
 
-    var id = parseInt($location.search().id);
+    const productId = parseInt($location.search().id, 10);
 
-    $http.get('json/product.json')
+    function loadProduct() {
+        $http.get('json/product.json')
         .then(function(response) {
-            var products = response.data;
-            $scope.product = products.find(function(p) {
-                return p.id === id;
-            });
+            const allProducts = response.data || {};
 
-            // modal viewer
-            $timeout(function () {
-                const modal = document.getElementById('imageModal');
-                const modalImg = document.getElementById('modalImage');
-                const closeBtn = modal.querySelector('.close');
+            const langProducts = allProducts[$scope.currentLang] || [];
 
-                document.querySelectorAll(".catalog-item img").forEach(function(img) {
-                    img.addEventListener("click", function(e) {
-                        e.preventDefault();
-                        modal.style.display = "flex";
-                        modalImg.src = this.src;
-                        document.body.style.overflow = 'hidden';
-                    });
-                });
+            let found = langProducts.find(p => Number(p.id) === Number(productId));
 
-                closeBtn.addEventListener("click", function () {
-                    modal.style.display = "none";
-                    document.body.style.overflow = '';
-                });
+            if (!found) {
+            const merged = Object.values(allProducts).flat();
+            found = merged.find(p => Number(p.id) === Number(productId));
+            }
 
-                modal.addEventListener("click", function(e) {
-                    if (e.target === modal) {
-                        modal.style.display = "none";
-                        document.body.style.overflow = '';
-                    }
-                });
-
-                document.addEventListener("keydown", function(e) {
-                    if (e.key === "Escape") {
-                        modal.style.display = "none";
-                        document.body.style.overflow = '';
-                    }
-                });
-            }, 0);
-
+            $scope.product = found || null;
         })
         .catch(function(err) {
-            console.error('Error loading product:', err);
+            console.error('Error loading product.json', err);
+            $scope.product = null;
         });
+    }
 
-    // biar tiap kali bahasa diganti dari luar (misal dropdown global), Angular ikut update
-    window.addEventListener("languageChanged", function() {
-        $scope.currentLang = localStorage.getItem("language") || "en";
-        $scope.$applyAsync();
+    loadProduct();
+
+    window.addEventListener('languageChanged', function() {
+        $scope.$applyAsync(function() {
+        $scope.currentLang = localStorage.getItem('language') || 'en';
+        loadProduct();
+        });
     });
+
+    $timeout(function(){}, 0);
 });

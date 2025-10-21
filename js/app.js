@@ -72,7 +72,7 @@ myApp.run(function($rootScope) {
 const menuBtn = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('header nav ul');
 
-if (menuBtn && navLinks) { // ✅ ADDED: hindari error jika elemen tidak ditemukan
+if (menuBtn && navLinks) { 
     menuBtn.addEventListener('click', () => {
         navLinks.classList.toggle('show');
     });
@@ -89,7 +89,6 @@ myApp.controller("ProductViewController", function($scope, $http, $location, $ti
         $scope.modalVisible = true;
         document.body.style.overflow = 'hidden';
 
-        // ✅ ADDED: tampilkan modal dengan elemen DOM
         const modal = document.getElementById("imageModal");
         const modalImg = document.getElementById("modalImage");
         if (modal && modalImg) {
@@ -103,14 +102,12 @@ myApp.controller("ProductViewController", function($scope, $http, $location, $ti
         $scope.modalImage = "";
         document.body.style.overflow = '';
 
-        // ✅ ADDED: sembunyikan modal
         const modal = document.getElementById("imageModal");
         if (modal) {
             modal.style.display = "none";
         }
     };
 
-    // ✅ ADDED: agar tombol close (span.close) juga bisa menutup modal
     document.addEventListener("click", function(e) {
         const modal = document.getElementById("imageModal");
         const modalImg = document.getElementById("modalImage");
@@ -161,3 +158,41 @@ myApp.controller("ProductViewController", function($scope, $http, $location, $ti
 
     $timeout(function(){}, 0);
 });
+
+$(document).ready(function(){
+    $('.review-carousel').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        responsive: [
+        {
+            breakpoint: 1024,
+            settings: { slidesToShow: 2 }
+        },
+        {
+            breakpoint: 768,
+            settings: { slidesToShow: 1 }
+        }
+        ]
+    });
+});
+
+let container = document.querySelector('.reviews-wrapper');
+let scrollAmount = 0;
+
+function autoScroll() {
+    if (!container) return;
+    scrollAmount += 1;
+    container.scrollLeft += 1;
+
+    if (container.scrollLeft + container.clientWidth >= container.scrollWidth - 1) {
+        container.scrollLeft = 0;
+    }
+}
+
+setInterval(autoScroll, 40); 

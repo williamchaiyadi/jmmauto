@@ -54,8 +54,8 @@
     cursor: pointer;
     margin-bottom: 2rem;
     background-color: black;
-    border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease-in-out, 
+    box-shadow 0.3s ease;
 }
 
 .catalogs-item:hover img {
@@ -69,12 +69,11 @@
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    border-bottom: 2px solid var(--orange);
+    transition: transform 0.3s ease, 
+    opacity 0.3s ease;
 }
 
 .catalogs-item:hover {
-    transform: translateY(-5px);
     box-shadow: 0 6px 20px rgba(0,0,0,0.6);
 }
 

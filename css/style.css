@@ -45,7 +45,7 @@ img {
 }
 
 body {
-    background-image: url(/assets/background/black-background.png);
+    background-image: url(/assets/background/black-background.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -66,6 +66,11 @@ body {
     font-size: 30px;
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
+    transition: all 0.3s ease-in-out;
+}
+
+.float:hover { 
+    transform: scale(105%);
 }
 
 .my-float {
@@ -143,9 +148,9 @@ body {
         align-items: center;
         text-align: center;
         color: var(--white);
-        background: url('/assets/background/home-banner.png') no-repeat center center;
+        background: url('/assets/background/home-banner.webp') no-repeat center center;
         background-size: cover;
-        padding: 0; /* hilangkan gap */
+        padding: 0; 
         margin: 0;
     }
 

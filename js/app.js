@@ -160,26 +160,26 @@ myApp.controller("ProductViewController", function($scope, $http, $location, $ti
 });
 
 (function initReviewSlider(retries = 0) {
-  const wrapper = document.getElementById("reviewsWrapper");
-  const nextBtn = document.getElementById("next");
-  const prevBtn = document.getElementById("prev");
+    const wrapper = document.getElementById("reviewsWrapper");
+    const nextBtn = document.getElementById("next");
+    const prevBtn = document.getElementById("prev");
 
-  if (!wrapper || !nextBtn || !prevBtn) {
-    if (retries < 50) return setTimeout(() => initReviewSlider(retries + 1), 100);
-    return;
-  }
+    if (!wrapper || !nextBtn || !prevBtn) {
+        if (retries < 50) return setTimeout(() => initReviewSlider(retries + 1), 100);
+        return;
+    }
 
-  const cards = wrapper.querySelectorAll(".review-card");
-  const visibleCards = 3;
-  let index = 0;
+    const cards = wrapper.querySelectorAll(".review-card");
+    const visibleCards = 3;
+    let index = 0;
 
-  function showSlide(i) {
-    const maxIndex = cards.length - visibleCards;
-    index = (i < 0) ? maxIndex : (i > maxIndex ? 0 : i);
-    const cardWidth = cards[0].offsetWidth + 10;
-    wrapper.style.transform = `translateX(-${index * cardWidth}px)`;
-  }
+    function showSlide(i) {
+        const maxIndex = cards.length - visibleCards;
+        index = (i < 0) ? maxIndex : (i > maxIndex ? 0 : i);
+        const cardWidth = cards[0].offsetWidth + 10;
+        wrapper.style.transform = `translateX(-${index * cardWidth}px)`;
+    }
 
-  nextBtn.addEventListener("click", () => showSlide(index + 1));
-  prevBtn.addEventListener("click", () => showSlide(index - 1));
+    nextBtn.addEventListener("click", () => showSlide(index + 1));
+    prevBtn.addEventListener("click", () => showSlide(index - 1));
 })();

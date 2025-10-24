@@ -55,7 +55,6 @@
 
 .catalog-item {
     width: 180px;
-    border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
     color: var(--white);
@@ -63,20 +62,21 @@
     background: #111;
 }
 
+.catalog-item img { 
+    transition: all 0.3s ease-in-out;
+}
+
 .catalog-item:hover img {
     transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
     opacity: 0.5;
 }
 
 .catalog-item img {
     width: 100%;
     display: block;
-    border-bottom: 2px solid var(--orange);
 }
 
 .catalog-item:hover {
-    transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0,0,0,0.4);
 }
 
@@ -96,7 +96,6 @@
 .modal-content {
     max-width: 90%;
     max-height: 90%;
-    border-radius: 10px;
     box-shadow: 0 0 20px rgba(255,255,255,0.3);
     animation: zoomIn 0.3s ease;
 }

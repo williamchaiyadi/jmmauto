@@ -40,13 +40,13 @@
         {
             "id": 3,
             "title": "Car Body Cover",
-            "image": "assets/catalog/body-cover/body-cover-1.png",
+            "image": "assets/catalog/body-cover/body-cover-1.webp",
             "description": "Our car body cover helps in covering your car from dust and wind, also our material is water proof. So you don’t have to worry about your car getting dust/mould in the long run!",
             "models": [
-                "assets/catalog/body-cover/body-cover-2.png",
-                "assets/catalog/body-cover/body-cover-3.png",
-                "assets/catalog/body-cover/body-cover-4.png",
-                "assets/catalog/body-cover/body-cover-5.png"
+                "assets/catalog/body-cover/body-cover-2.webp",
+                "assets/catalog/body-cover/body-cover-3.webp",
+                "assets/catalog/body-cover/body-cover-4.webp",
+                "assets/catalog/body-cover/body-cover-5.webp"
             ]
         },
         {

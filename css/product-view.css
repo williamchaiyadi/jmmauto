@@ -76,7 +76,6 @@
     width: 100%;
     max-width: 500px;
     height: auto;
-    border-radius: 8px;
     object-fit: cover;
 }
 
@@ -103,7 +102,8 @@
     text-decoration: none;
     text-align: center;
     color: var(--white);
-    transition: transform 0.3s ease, opacity 0.3s ease;
+    transition: transform 0.3s ease, 
+    opacity 0.3s ease;
 }
 
 .productv-model-item:hover {
@@ -114,7 +114,6 @@
 .productv-model-item img {
     width: 150px;
     height: auto;
-    border-radius: 8px;
     border: 1px solid var(--orange);
 }
 
@@ -139,7 +138,6 @@
 .modal-content {
     max-width: 90%;
     max-height: 90%;
-    border-radius: 10px;
     box-shadow: 0 0 20px rgba(255,255,255,0.3);
 }
 

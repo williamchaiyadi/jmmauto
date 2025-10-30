@@ -3,8 +3,8 @@
         {
             "id": 1,
             "title": "Car Seat Leather",
-            "image": "assets/catalog/car-seat/car-seat-2.png",
-            "image2": "assets/catalog/car-seat/car-seat-3.png",
+            "image": "assets/catalog/car-seat/car-seat-2.webp",
+            "image2": "assets/catalog/car-seat/car-seat-3.webp",
             "feature": "AIRBAG-COMPATIBLE SEAT COVERS",
             "description": "Newer vehicles come equipped with airbags within the seats, requiring precise, manufacturer-compliant stitching for safety. Our computer-controlled sewing machines ensure certified and reliable airbag deployment, maintaining your vehicle’s safety standards.",
             "description2": "Leathers we can offer you, available in various textures, colors, and finishes to match your preferences, ensuring a luxurious feel, premium appearance, and lasting performance for every drive.",
@@ -14,18 +14,18 @@
                 "Genuine Leather"
             ],
             "models": [
-                "assets/products/car-seat-1.png",
-                "assets/products/car-seat-2.png",
-                "assets/products/car-seat-3.png",
-                "assets/products/car-seat-4.png",
-                "assets/products/car-seat-5.png",
-                "assets/products/car-seat-6.png",
-                "assets/products/car-seat-7.png",
-                "assets/products/car-seat-8.png",
-                "assets/products/car-seat-9.png",
-                "assets/products/car-seat-10.png",
-                "assets/products/car-seat-11.png",
-                "assets/products/car-seat-12.png"
+                "assets/products/car-seat-1.webp",
+                "assets/products/car-seat-2.webp",
+                "assets/products/car-seat-3.webp",
+                "assets/products/car-seat-4.webp",
+                "assets/products/car-seat-5.webp",
+                "assets/products/car-seat-6.webp",
+                "assets/products/car-seat-7.webp",
+                "assets/products/car-seat-8.webp",
+                "assets/products/car-seat-9.webp",
+                "assets/products/car-seat-10.webp",
+                "assets/products/car-seat-11.webp",
+                "assets/products/car-seat-12.webp"
             ]
         },
         {
@@ -52,22 +52,22 @@
         {
             "id": 4,
             "title": "Recaro Seat",
-            "image": "assets/catalog/recaro-seat/recaro-seat-3.png",
-            "image2": "assets/catalog/recaro-seat/recaro-seat-2.png",
+            "image": "assets/catalog/recaro-seat/recaro-seat-3.webp",
+            "image2": "assets/catalog/recaro-seat/recaro-seat-2.webp",
             "feature": "Premium Comfort & Performance",
             "description": "Experience unmatched comfort and performance with the Recaro Seat, engineered to deliver a premium driving experience. Designed with advanced ergonomics to support your posture, it not only enhances comfort but also provides superior control every time you take the wheel.",
             "description2": "Crafted from high-quality materials with a sleek, sporty design, the Recaro Seat is the perfect choice for those who value both style and function. Elevate your journey with a seat trusted by automotive enthusiasts worldwide for its safety, comfort, and confidence-inspiring design.",
             "models": [
-                "assets/catalog/recaro-seat/recaro-seat-1.png",
-                "assets/catalog/recaro-seat/recaro-seat-4.png",
-                "assets/catalog/recaro-seat/recaro-seat-5.png"
+                "assets/catalog/recaro-seat/recaro-seat-1.webp",
+                "assets/catalog/recaro-seat/recaro-seat-4.webp",
+                "assets/catalog/recaro-seat/recaro-seat-5.webp"
             ]
         },
         {
             "id": 5,
             "title": "Car Seat Customization",
-            "image": "assets/catalog/custom-seat/custom-seat-1.png",
-            "image2": "assets/catalog/custom-seat/custom-armrest-1.png",
+            "image": "assets/catalog/custom-seat/custom-seat-1.webp",
+            "image2": "assets/catalog/custom-seat/custom-armrest-1.webp",
             "feature": "Coming Soon",
             "description": "Why buy a new car or new seat to be instaretrim your car, when u can customize it to your liking ? Yes, We are here to provide a solution for you and to give you an amazing experience and comfort while riding your car. but it feels more like a luxurious car or even it feels like a different kind of car.",
             "description2": "One of our services here is to provide you the best interior customization for your car, feeling like having another car but its way over the budget? we can bring it closer to you by customizing your original car seat and turn it into your dream car. You can choose the services as we provide below: ",
@@ -77,24 +77,24 @@
                 "Customize + Install electric seat + retrim car seat"
             ],
             "models": [
-                "assets/catalog/not-found.png",
-                "assets/catalog/not-found.png",
-                "assets/catalog/not-found.png"
+                "assets/catalog/not-found.webp",
+                "assets/catalog/not-found.webp",
+                "assets/catalog/not-found.webp"
             ]
         },
         {
             "id": 6,
             "title": "Not Found",
-            "image": "assets/catalog/not-found.png",
-            "image2": "assets/catalog/not-found.png",
+            "image": "assets/catalog/not-found.webp",
+            "image2": "assets/catalog/not-found.webp",
             "feature": "Coming Soon",
             "description": "This product is not yet available. Please check back later for updates.",
             "description2": "Stay tuned for our upcoming products.",
             "features": ["Coming Soon"],
             "models": [
-                "assets/catalog/not-found.png",
-                "assets/catalog/not-found.png",
-                "assets/catalog/not-found.png"
+                "assets/catalog/not-found.webp",
+                "assets/catalog/not-found.webp",
+                "assets/catalog/not-found.webp"
             ]
         }
     ],
@@ -103,8 +103,8 @@
         {
             "id": 1,
             "title": "Jok Mobil Kulit",
-            "image": "assets/catalog/car-seat/car-seat-2.png",
-            "image2": "assets/catalog/car-seat/car-seat-3.png",
+            "image": "assets/catalog/car-seat/car-seat-2.webp",
+            "image2": "assets/catalog/car-seat/car-seat-3.webp",
             "feature": "SARUNG JOK KOMPATIBEL AIRBAG",
             "description": "Mobil keluaran terbaru dilengkapi dengan airbag di dalam kursi, sehingga memerlukan jahitan presisi sesuai standar pabrikan demi keselamatan. Mesin jahit komputer kami memastikan pelepasan airbag yang aman dan andal, sehingga standar keselamatan kendaraan tetap terjaga.",
             "description2": "Pilihan kulit yang kami tawarkan tersedia dalam berbagai tekstur, warna, dan sentuhan akhir untuk menyesuaikan dengan preferensi Anda, menghadirkan nuansa mewah, tampilan premium, serta daya tahan tinggi untuk setiap perjalanan Anda.",
@@ -114,18 +114,18 @@
                 "Kulit Asli"
             ],
             "models": [
-                "assets/products/car-seat-1.png",
-                "assets/products/car-seat-2.png",
-                "assets/products/car-seat-3.png",
-                "assets/products/car-seat-4.png",
-                "assets/products/car-seat-5.png",
-                "assets/products/car-seat-6.png",
-                "assets/products/car-seat-7.png",
-                "assets/products/car-seat-8.png",
-                "assets/products/car-seat-9.png",
-                "assets/products/car-seat-10.png",
-                "assets/products/car-seat-11.png",
-                "assets/products/car-seat-12.png"
+                "assets/products/car-seat-1.webp",
+                "assets/products/car-seat-2.webp",
+                "assets/products/car-seat-3.webp",
+                "assets/products/car-seat-4.webp",
+                "assets/products/car-seat-5.webp",
+                "assets/products/car-seat-6.webp",
+                "assets/products/car-seat-7.webp",
+                "assets/products/car-seat-8.webp",
+                "assets/products/car-seat-9.webp",
+                "assets/products/car-seat-10.webp",
+                "assets/products/car-seat-11.webp",
+                "assets/products/car-seat-12.webp"
         ]
         },
         {
@@ -140,34 +140,34 @@
         {
             "id": 3,
             "title": "Body Cover Mobil",
-            "image": "assets/catalog/body-cover/body-cover-1.png",
+            "image": "assets/catalog/body-cover/body-cover-1.webp",
             "description": "Body cover mobil kami melindungi mobil Anda dari debu dan angin, serta berbahan tahan air. Jadi, Anda tidak perlu khawatir mobil terkena debu atau jamur dalam jangka panjang!",
             "models": [
-                "assets/catalog/body-cover/body-cover-2.png",
-                "assets/catalog/body-cover/body-cover-3.png",
-                "assets/catalog/body-cover/body-cover-4.png",
-                "assets/catalog/body-cover/body-cover-5.png"
+                "assets/catalog/body-cover/body-cover-2.webp",
+                "assets/catalog/body-cover/body-cover-3.webp",
+                "assets/catalog/body-cover/body-cover-4.webp",
+                "assets/catalog/body-cover/body-cover-5.webp"
             ]
         },
         {
             "id": 4,
             "title": "Jok Recaro",
-            "image": "assets/catalog/recaro-seat/recaro-seat-3.png",
-            "image2": "assets/catalog/recaro-seat/recaro-seat-2.png",
+            "image": "assets/catalog/recaro-seat/recaro-seat-3.webp",
+            "image2": "assets/catalog/recaro-seat/recaro-seat-2.webp",
             "feature": "Kenyamanan & Performa Premium",
             "description": "Nikmati kenyamanan dan performa tak tertandingi dengan jok Recaro, yang dirancang untuk memberikan pengalaman berkendara premium. Dengan ergonomi canggih untuk mendukung postur tubuh, jok ini tidak hanya menambah kenyamanan tetapi juga memberikan kontrol lebih baik setiap kali Anda mengemudi.",
             "description2": "Terbuat dari material berkualitas tinggi dengan desain sporty dan elegan, jok Recaro adalah pilihan tepat bagi Anda yang mengutamakan gaya sekaligus fungsi. Tingkatkan perjalanan Anda dengan jok yang dipercaya para penggemar otomotif di seluruh dunia karena keamanan, kenyamanan, dan desainnya yang menginspirasi.",
             "models": [
-                "assets/catalog/recaro-seat/recaro-seat-1.png",
-                "assets/catalog/recaro-seat/recaro-seat-4.png",
-                "assets/catalog/recaro-seat/recaro-seat-5.png"
+                "assets/catalog/recaro-seat/recaro-seat-1.webp",
+                "assets/catalog/recaro-seat/recaro-seat-4.webp",
+                "assets/catalog/recaro-seat/recaro-seat-5.webp"
             ]
         },
         {
             "id": 5,
             "title": "Kustomisasi Jok Mobil",
-            "image": "assets/catalog/custom-seat/custom-seat-1.png",
-            "image2": "assets/catalog/custom-seat/custom-armrest-1.png",
+            "image": "assets/catalog/custom-seat/custom-seat-1.webp",
+            "image2": "assets/catalog/custom-seat/custom-armrest-1.webp",
             "feature": "Segera Hadir",
             "description": "Kenapa harus beli mobil baru atau jok baru hanya untuk membuat mobil terlihat lebih keren, kalau kamu bisa kustomisasi sesuai keinginanmu? Ya, kami hadir untuk memberikan solusi dan menghadirkan pengalaman luar biasa serta kenyamanan maksimal saat berkendara. Rasanya bukan hanya seperti mobil mewah, tapi bahkan bisa terasa seperti mobil yang benar-benar berbeda..",
             "description2": "Salah satu layanan utama kami adalah memberikan kustomisasi interior terbaik untuk mobilmu. Ingin rasanya seperti punya mobil baru, tapi tanpa harus keluar biaya besar? Kami bisa mewujudkannya dengan cara mengubah jok asli mobilmu menjadi jok impian. Kamu bisa memilih layanan sesuai kebutuhan berikut:",
@@ -177,24 +177,24 @@
                 "Kustomisasi + pasang jok elektrik + retrim jok mobil"
             ],
             "models": [
-                "assets/catalog/not-found.png",
-                "assets/catalog/not-found.png",
-                "assets/catalog/not-found.png"
+                "assets/catalog/not-found.webp",
+                "assets/catalog/not-found.webp",
+                "assets/catalog/not-found.webp"
             ]
         },
         {
             "id": 6,
             "title": "Belum Tersedia",
-            "image": "assets/catalog/not-found.png",
-            "image2": "assets/catalog/not-found.png",
+            "image": "assets/catalog/not-found.webp",
+            "image2": "assets/catalog/not-found.webp",
             "feature": "Segera Hadir",
             "description": "Produk ini belum tersedia. Silakan cek kembali nanti untuk pembaruan.",
             "description2": "Nantikan produk terbaru kami.",
             "features": ["Segera Hadir"],
             "models": [
-                "assets/catalog/not-found.png",
-                "assets/catalog/not-found.png",
-                "assets/catalog/not-found.png"
+                "assets/catalog/not-found.webp",
+                "assets/catalog/not-found.webp",
+                "assets/catalog/not-found.webp"
             ]
         }
     ]
